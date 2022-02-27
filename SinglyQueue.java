@@ -52,10 +52,6 @@ public class SinglyQueue {
             }
         }
     }
-    void peek(){
-        System.out.println(Rear);
-
-    }
     public static void main(String[] args) {
         SinglyQueue obj =new SinglyQueue();
         while (true){
@@ -82,7 +78,6 @@ public class SinglyQueue {
                 default:
                     System.out.println("Wrong choice");
             }
-            obj.peek();
         }
     }
 }
